@@ -13,16 +13,19 @@ h1{
 
 }
 
-
-
-
-#albums {
+#albums{
     display: flex;
     flex-direction: row;
     width: 20%;
     margin: 10px;
     justify-content: flex-start;
     list-style-type: none;
+
+}
+
+
+#covers {
     gap: 10px;
+    flex-direction: row;
 }
 
