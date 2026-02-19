@@ -17,7 +17,7 @@ h1{
 
 
 
-#albums ol{
+#albums {
     display: flex;
     flex-direction: row;
     width: 20%;
@@ -26,3 +26,4 @@ h1{
     list-style-type: none;
     gap: 5px;
 }
+
