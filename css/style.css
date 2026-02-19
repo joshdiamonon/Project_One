@@ -5,6 +5,7 @@
 *{
 font-family: fraunces;
 margin: 0;
+padding: 0;
 }
 
 #jawshy{
@@ -15,6 +16,7 @@ margin: 0;
     background-size: cover;
     padding: 25px;
     border-bottom: 3px solid black;
+    
     
     
 }
@@ -31,12 +33,67 @@ nav, nav a{
    
 }
 
-.josh{
-    display: flex;
-    flex-direction: column;
-   
+#sun{
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    background-color: #0e7cc5;
+    display: block;
 }
-.josh h1{
+
+h1{
     display: flex;
     justify-content: center;
+    padding-top: 30px;
+
 }
+
+
+.josh{
+    display: flex;
+    flex-direction: rows;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    #bio {
+        display: flex;
+        
+        width: 40%;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #quote{
+      
+        display: flex;
+        width: 30%;
+        text-align: center;
+    
+    }
+
+
+
+
+
+
+
+    footer{
+        background-image: url(/img/clouds.jpg);
+        background-position-x: 2100px;
+        background-position-y: 1500px;
+    font-family: fraunces;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    word-spacing: 100px;
+    color: black;
+    padding: 100px;
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
+    }

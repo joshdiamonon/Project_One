@@ -28,7 +28,4 @@ nav, nav a{
     justify-content: center;
     gap: 50px;
     color: black;
-}@font-face {
-    font-family: fraunces ;
-    src: url(../../fonts/Fraunces.ttf);
 }
