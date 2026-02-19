@@ -34,8 +34,7 @@ h3{
     justify-content: flex-start;
     width: 20%;
 }
-ol{display: block;
-}
+
 
 #captions{
     flex-direction: row;
