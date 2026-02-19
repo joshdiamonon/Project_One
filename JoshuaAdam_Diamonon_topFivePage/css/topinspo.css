@@ -20,6 +20,8 @@ h1{
 #albums ol{
     display: flex;
     flex-direction: row;
+    width: 20%;
+    margin: 10px;
     justify-content: flex-start;
     list-style-type: none;
     gap: 5px;
