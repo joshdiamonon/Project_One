@@ -2,3 +2,27 @@
     font-family: fraunces ;
     src: url(../fonts/Fraunces.ttf);
 }
+*{
+font-family: fraunces;
+}
+
+#jawshy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/clouds.jpg);
+    background-size: cover;
+    
+}
+
+
+nav, nav a{
+    font-family: fraunces;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    gap: 50px;
+}
+
