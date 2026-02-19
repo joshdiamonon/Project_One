@@ -1,0 +1,10 @@
+@font-face {
+    font-family: fraunces ;
+    src: url(../../fonts/Fraunces.ttf);
+}
+#albums{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+}
