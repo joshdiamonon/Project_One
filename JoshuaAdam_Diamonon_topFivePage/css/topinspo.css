@@ -30,8 +30,9 @@ h3{
 
 #covers {
     gap: 10px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
+    width: 50%;
 }
 
 #captions{
