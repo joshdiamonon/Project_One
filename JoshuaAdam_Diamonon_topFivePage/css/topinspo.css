@@ -35,7 +35,7 @@ h3{
     width: 20%;
 }
 
-
 #captions{
     flex-direction: row;
+    font-size: 10px;
 }
