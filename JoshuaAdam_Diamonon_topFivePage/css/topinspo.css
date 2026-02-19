@@ -32,9 +32,10 @@ h3{
     gap: 10px;
     flex-direction: row;
     justify-content: flex-start;
-    width: 50%;
+    width: 20%;
 }
-ol{display: block;}
+ol{display: block;
+}
 
 #captions{
     flex-direction: row;
