@@ -22,4 +22,5 @@ h1{
     flex-direction: row;
     justify-content: flex-start;
     list-style-type: none;
+    gap: 5px;
 }
