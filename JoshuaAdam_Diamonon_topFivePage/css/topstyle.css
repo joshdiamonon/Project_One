@@ -7,7 +7,28 @@
 font-family: fraunces;
 }
 
-nav{}
+#jawshy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/clouds.jpg);
+    background-size: cover;
+    padding: 25px;
+    border-bottom: 3px solid black;
+    
+    
+}
+
+nav, nav a{
+    font-family: fraunces;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+}
 
 
 h1{

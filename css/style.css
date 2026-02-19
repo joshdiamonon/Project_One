@@ -4,6 +4,7 @@
 }
 *{
 font-family: fraunces;
+margin: 0;
 }
 
 #jawshy{
@@ -12,9 +13,11 @@ font-family: fraunces;
     align-items: center;
     background-image: url(../img/clouds.jpg);
     background-size: cover;
+    padding: 25px;
+    border-bottom: 3px solid black;
+    
     
 }
-
 
 nav, nav a{
     font-family: fraunces;
@@ -24,5 +27,16 @@ nav, nav a{
     flex-direction: rows;
     justify-content: center;
     gap: 50px;
+    color: black;
+   
 }
 
+.josh{
+    display: flex;
+    flex-direction: column;
+   
+}
+.josh h1{
+    display: flex;
+    justify-content: center;
+}
