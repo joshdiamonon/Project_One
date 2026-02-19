@@ -47,35 +47,41 @@ nav, nav a{
 
 
 .josh{
-    background-image: url(../img/quote.jpg);
+    background-image: url(../img/bio.jpg);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    padding-bottom: 40px;
+    background-position: fixed;
 }
     h1{
     display: flex;
     justify-content: center;
     padding-top: 30px;
     flex: 100%;
-    padding-bottom: 50px;
     
     }
 
     #bio {
         display: flex;
-        width: 40%;
-        margin: 20px;
+        width: 45%;
+        margin: 60px;
+        margin-left: 150px;
         text-align: center;
+
+        
+    
     }
 
     #quote{
       
         display: flex;
-        width: 30%;
+        width: 23%;
         text-align: center;
+        margin: 100px;
+        padding-bottom: 50px;
+        padding-left: 30px;
     
     }
 
@@ -86,7 +92,7 @@ nav, nav a{
 
 
     footer{
-        background-image: url(/img/foot.jpg);
+        background-image: url(../img/foot.jpg);
         height: 100%;
         font-size: 30px;
         display: flex;
