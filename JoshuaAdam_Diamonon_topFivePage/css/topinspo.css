@@ -3,6 +3,9 @@
     src: url(../../fonts/Fraunces.ttf);
 }
 
+*{
+font-family: fraunces;
+}
 
 h1{
     font-family: fraunces;
