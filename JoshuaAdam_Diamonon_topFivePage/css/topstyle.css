@@ -5,6 +5,8 @@
 
 *{
 font-family: fraunces;
+margin: 0;
+padding: 0;
 }
 
 #jawshy{
@@ -49,6 +51,7 @@ h3{
     justify-content: space-evenly;
     text-align: center;
     width: 90%;
+    margin-left: 5px;
 }
 .albums img{
     width: 250px;
@@ -67,6 +70,7 @@ h3{
 .genshin img{ 
     width: 250px;
     height: auto;
+    margin-left: 5px;
     
 
 }

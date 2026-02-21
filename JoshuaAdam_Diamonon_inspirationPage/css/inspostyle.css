@@ -5,13 +5,15 @@
 
 *{
 font-family: fraunces;
+margin: 0;
+padding: 0;
 }
 
 #jawshy{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../img/clouds.jpg);
+    background-image: url(../img/head.jpg);
     background-size: cover;
     padding: 25px;
     border-bottom: 3px solid black;
@@ -28,4 +30,9 @@ nav, nav a{
     justify-content: center;
     gap: 50px;
     color: black;
+}
+
+
+h1, h2{
+    text-align: center;
 }
