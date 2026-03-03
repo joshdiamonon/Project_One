@@ -36,3 +36,10 @@ nav, nav a{
 h1, h2{
     text-align: center;
 }
+
+.inspo{
+   
+    background-image: url(../img/planets.jpg);
+    background-size: cover;
+
+}
