@@ -48,10 +48,10 @@ h3{
     flex-direction: row;
     font-size: 15px;
     gap: 30px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     width: 90%;
-    margin-left: 5px;
+
 }
 .albums img{
     width: 250px;
@@ -63,14 +63,34 @@ h3{
     flex-direction: row;
     font-size: 15px;
     gap: 30px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
-    width: 90%;
-}
-.genshin img{ 
-    width: 250px;
-    height: auto;
-    margin-left: 5px;
-    
 
 }
+.genshin img{ 
+width: 250px;
+height: auto;
+    
+}
+
+
+
+footer{
+        background-image: url(../img/head.jpg);
+        height: 100%;
+        font-size: 30px;
+        display: flex;
+        padding: 100px;
+        justify-content: space-around;
+        border-top: 2px solid black;
+        background-size: cover;
+        
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+    .social{
+        display: flex;
+        gap: 100px;
+    }

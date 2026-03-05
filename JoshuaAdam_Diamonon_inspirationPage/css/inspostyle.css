@@ -29,17 +29,60 @@ nav, nav a{
     flex-direction: rows;
     justify-content: center;
     gap: 50px;
-    color: black;
+    color: white;
 }
 
 
-h1, h2{
-    text-align: center;
-}
 
 .inspo{
-   
-    background-image: url(../img/planets.jpg);
-    background-size: cover;
+   background-image: url(../img/planets.jpg);
+    background-size: auto;
+    text-align: cover;
+    color: white;
+    text-decoration: none;
+}
+.inspo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#nymphia, #niki, #genshin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
+#genshin{
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#nymbio, #nikibio, #genshinbio{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    
+}
+
+
+
+
+ footer{
+        background-image: url(../img/stars.jpg);
+        height: 100%;
+        font-size: 30px;
+        display: flex;
+        padding: 100px;
+        justify-content: space-around;
+        border-top: 2px solid black;
+        background-size: cover;
+        
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+    .social{
+        display: flex;
+        gap: 100px;
+    }
