@@ -76,10 +76,12 @@ h1{
 footer{
         background-image: url(../img/footer.jpg);
         font-size: 30px;
+        display: flex;
         padding: 100px;
+        justify-content: center;
+        align-items: center;
         border-top: 2px solid black;
         background-size: cover;
-        margin: 0;
     }
     footer a{
         text-decoration: none;
@@ -87,10 +89,5 @@ footer{
     }
     .social{
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        width: 100%;
-        height: 10px;
-    
+        gap: 100px;
     }
