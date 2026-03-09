@@ -37,7 +37,7 @@ nav, nav a{
 .inspo{
    background-image: url(../img/planets.jpg);
     background-size: auto;
-    text-align: cover;
+    text-align: center;
     color: white;
     text-decoration: none;
 }
@@ -52,16 +52,21 @@ nav, nav a{
     justify-content: space-around;
 
 }
-#genshin{
+#genshin img{
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
+    width: 30%;
+    height: 10%;
+    padding-bottom: 50px;
+   
+    
 }
 
 #nymbio, #nikibio, #genshinbio{
     display: flex;
     width: 50%;
     margin: auto;
-    
 }
 
 

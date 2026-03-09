@@ -13,7 +13,7 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../img/clouds.jpg);
+    background-image: url(../img/nav\ cloud.jpg);
     background-size: cover;
     padding: 25px;
     border-bottom: 3px solid black;
@@ -34,13 +34,9 @@ nav, nav a{
 
 
 h1{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 
-}
-h3{
-    text-align: center;
-    font-size: 30px;
 }
 
 .albums{
@@ -51,6 +47,7 @@ h3{
     justify-content: space-around;
     text-align: center;
     width: 90%;
+
 
 }
 .albums img{
@@ -69,14 +66,16 @@ h3{
 }
 .genshin img{ 
 width: 250px;
-height: auto;
-    
+}
+
+.content{
+    background-image: url(../img/body.jpg);
+    background-position: center;
 }
 
 
-
 footer{
-        background-image: url(../img/head.jpg);
+        background-image: url(../img/footer.jpg);
         height: 100%;
         font-size: 30px;
         display: flex;
