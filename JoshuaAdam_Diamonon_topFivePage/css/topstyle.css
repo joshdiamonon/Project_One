@@ -50,7 +50,7 @@ h1{
 
 
 }
-.albums img{
+.albums img, .genshin img{
     width: 250px;
     height: 250px;
 }
@@ -64,9 +64,7 @@ h1{
     text-align: center;
 
 }
-.genshin img{ 
-width: 250px;
-}
+
 
 .content{
     background-image: url(../img/body.jpg);
