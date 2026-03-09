@@ -45,14 +45,16 @@ h1{
     font-size: 15px;
     gap: 30px;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
-    width: 90%;
 
 
 }
 .albums img, .genshin img{
     width: 250px;
     height: 250px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .genshin{
@@ -61,6 +63,7 @@ h1{
     font-size: 15px;
     gap: 30px;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
 
 }
@@ -68,7 +71,7 @@ h1{
 
 .content{
     background-image: url(../img/body.jpg);
-    background-position: center;
+    background-position: cover;
 }
 
 
